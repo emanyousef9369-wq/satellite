@@ -7,5 +7,4 @@ seaborn
 matplotlib
 scikit-learn
 Pillow
-keras
 seaborn
