@@ -2,9 +2,9 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 from PIL import Image
+from keras.models import load_model
 
-
-model = tf.keras.models.load_model("final_model.keras")
+model = load_model("final_model.keras", compile=False)
 
 classes = ['cloudy', 'fire', 'floods', 'normal']
 
